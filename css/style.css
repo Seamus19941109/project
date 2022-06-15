@@ -49,6 +49,18 @@ table {
 
 
 
+
+
+
+
+
+
+.body{
+    width: 1600px;
+    position: relative;
+    margin: 0 auto;
+}
+
 .header{
     color: aqua;
     width: 1600px;
@@ -57,16 +69,22 @@ table {
     justify-content: space-around;
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
-.outside{
-    width: 1600px;
-    margin: 0 auto;
-    position: relative;
-}
+
 
 .header h1{
     font-size: 60px;
+    position:relative;
+}
+
+.header h1 a:hover{
+    color: chocolate;
+}
+
+.header h1 a:active{
+    color: rgb(22, 207, 37);
 }
 
 .header li{
@@ -75,16 +93,10 @@ table {
     float:left;
     padding-left:70px;
 }
-.header img{
-    position:absolute;
-    top:0px;
-    left:0%;
-    width: 70px;
-    height: 60px;
-}
 
 .shopping{
-    margin-top:30px;
+    margin-top:50px;
+    margin-left: -70px;
 }
 
 .shopping li{
@@ -92,27 +104,31 @@ table {
 }
 
 .mail{
-    float:right;
+    float:left;
 }
 
-.span1{
-    border-radius: 5px red ;
-    font-size: 16px;
+.drop {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
 }
 
 .bodyy{
     width: 1600px;
     background:gray;
+    margin: 0 auto;
+    
     
 }
 
 .spasp{
-    border: 1px solid red;
+    border: 5px red;
+    border-style: ridge;
     width: 300px;
-    height: 500px;
     float: left;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-top: 5px;
 }
 
@@ -129,15 +145,22 @@ table {
 
 .bodyy p{
     text-indent:40px;
+    font-family:fantasy;
+    font-weight:lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    line-height:  35px;
+    letter-spacing:  2px;
 }
 
 .footer{
     width: 1600px;
-    height: 200px;
     display: flex;
     background:linear-gradient(rgb(186, 44, 190),red);
-    line-height:200px;
+    line-height:50px;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .footerabout {
