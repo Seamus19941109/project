@@ -116,10 +116,9 @@ table {
 
 .bodyy{
     width: 1600px;
-    background:gray;
+    
     margin: 0 auto;
-    
-    
+    position: relative;
 }
 
 .spasp{
@@ -132,9 +131,25 @@ table {
     margin-top: 5px;
 }
 
-.bodyy img{
+.photo{
+    
+}
+
+.textt img{
+    position: absolute;
+    top: 10px;
+    margin-left: 5px;
+    width: 60px;
+    height: 40px;
+    
+}
+
+
+
+.spasp img{
     width: 300px;
     height: 200px;
+    
 }
 
 .bodyy h2{
