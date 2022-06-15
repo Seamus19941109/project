@@ -98,11 +98,61 @@ table {
 .span1{
     border-radius: 5px red ;
     font-size: 16px;
-    background-image: ;
 }
 
-.body{
+.bodyy{
     width: 1600px;
-    height: 300px;
-    background:gray
+    background:gray;
+    
+}
+
+.spasp{
+    border: 1px solid red;
+    width: 300px;
+    height: 500px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.bodyy img{
+    width: 300px;
+    height: 200px;
+}
+
+.bodyy h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bodyy p{
+    text-indent:40px;
+}
+
+.footer{
+    width: 1600px;
+    height: 200px;
+    display: flex;
+    background:linear-gradient(rgb(186, 44, 190),red);
+    line-height:200px;
+    justify-content: space-between;
+}
+
+.footerabout {
+    margin-left: 60px;
+    float: left;
+}
+
+.footerabout1 {
+    margin-right: 60px;
+    float: right;
+}
+
+.footer span{
+    background: greenyellow;
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin-right: 10px;
 }
